@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar ul{
+    display: flex;
+    color: darkmagenta;
+    list-style: none;
+    position: relative;
+    margin-right: 30px;
+    
+}
+.navbar ul li{
+    margin: 10px;
+
+
+
+}
+.navbar ul li a{
+    color: darkmagenta;
+    letter-spacing: 1px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  
+
+}
+.navbar .logo img{
+    width: 20%;
+    
+}
+.box ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10vh;
+
+}
+.box h1{
+    color: blue ;
+    position: relative;
+    margin-left: 35%;
+}
+ul a .abhi{
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+nav .navbar ul a .abhi2{
+    position: relative;
+    top: 2vh;
+    right: 10px;
+}

@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.anm12{
+    height: 20vh;
+    width: 20%;
+    background-color: green;
+    animation-name: anm12;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes anm12{
+    0% {background-color: yellowgreen; left: 0%; top: 0%; border-radius: 0%; }
+    25% { background-color: aqua; left: 30%; top: 0vh;border-radius: 50%;}
+    50% {background-color: red; left: 30%; top: 80vh;border-radius: 0%;}
+    75% { background-color: blue; left: 0px; top: 80vh; border-radius: 50%;}
+    100% {background-color: yellowgreen; left: 0px; top: 0px; border-radius: 0%;}
+}
+.anm13{
+    height: 20vh;
+    width: 20%;
+    background-color: rgb(red, green, blue);
+    animation-name: anm13;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute ;
+}
+@keyframes anm13{
+        0% {background-color: black; left: 80%; top: 0vh; border-radius: 0px;}
+        25%{background-color: red; left: 50%; top: 0vh; border-radius: 50%;}
+        50% {background-color: green; left: 50%; top: 80vh; border-radius: 0%;}
+        75%{background-color: aqua; left: 80%; top: 80vh; border-radius: 50%;}
+        100%{background-color: black; left: 80%; top: 0vh; border-radius: 0%;}
+}
+.anm12 img{
+border-radius: 50%;
+    position: relative;
+    top: 5px;
+}
+.anm13 img{
+   border-radius: 50%;
+    position: relative;
+    top: 5vh;
+}

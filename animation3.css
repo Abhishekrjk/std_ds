@@ -1,0 +1,50 @@
+.box{
+    height: 80%;
+    width: 500%;
+    display: flex;
+    animation: slider  7s 5s infinite;
+    position: relative;
+}
+.box img{
+    width: 20%;
+    height: 100%;
+}
+@keyframes  slider{
+    0%{
+left: 0%;
+    } 
+    10%{
+left: -100%;
+    }
+     20%{
+left: -200%;
+
+     } 
+     30%{
+left: -300%;
+
+     } 
+     40%{
+left: -400%;
+     }
+      50% {
+        left: -500%;
+
+      }
+      60%{
+left: -400%;
+      } 
+      70%{
+left: -300%;
+      } 80%{
+left: -200;
+      } 
+      90%{
+left: -100;
+      } 
+      100%{
+        left: 0%;
+      }
+      
+
+}

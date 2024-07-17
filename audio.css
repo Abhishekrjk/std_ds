@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.outer{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.outer .first{
+    background-color: aqua;
+    width: 50%;
+    height: 100vh;
+}
+.outer .first .Abhishek{
+    background-color: black;
+    width: 50%;
+    height: 80%;
+    position: relative;
+   margin-top: 15%;
+    margin-left:25%;
+    border-radius: 20px;
+    color:red;
+    
+}
+.outer .second {
+    background-color: chartreuse;
+    width: 50%;
+    height: 100vh;
+
+}
+  
+    
+    
+

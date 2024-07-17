@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+nav{
+    height: 150vh;
+    width: 100%;
+    background-color:purple; 
+}
+
+
+div{
+    background-color: aquamarine;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+div ul {
+    display:flex;
+    list-style: none; 
+    margin: 20px;
+    height: 10vh;
+    width: 30%;
+}
+div ul li{
+    margin: 20px;
+}
+video{
+    justify-content: center;
+    width: 50%;
+    height: 80vh;
+}

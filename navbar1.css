@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+nav .logo{
+    width: 20%;
+    height: 10vh;
+}
+nav .logo img{
+    height: 10vh;
+    width: 100%;
+}
+nav .my-btn{
+    display: none;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 75px;
+
+    margin-right: 10%;
+
+   
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;   
+    padding: 10%;
+    position: relative;
+}
+nav li{
+    background-color: aquamarine;
+    border: solid blueviolet;
+    border-radius: 10px;
+}
+
+ .mycls{
+    background-color: red;
+    font-size: 200px;
+    border-radius: 100%;
+    color: yellow;
+    border: 2px solid blue
+    margin: 10%;
+    box-shadow: rgba(red, green, blue, alpha);
+    
+}
+
+
+.home{
+    width: 100%;
+    height: 90vh;
+    background-color: aqua;
+    display: flex;
+
+
+}
+.home .home-left{
+    width: 50%;
+    height: 100%;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.home .home-right{
+    width: 50%;
+    height: 100%;
+    background-image: url("images/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home .home-left .left1,.left2,.left3{
+    width: 65%;
+    height: 30%;
+    background-color: white;
+    position: relative;
+    left: 50px;
+    border: solid blue;
+    padding: 1px;
+   font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+
+   
+}
+.home .home-left .left1 p{
+color: darkmagenta;
+}
+#click {
+    display: none;
+    
+}
+/* home css end */
+/* media query start */
+@media(max-width:420px){
+/* nav .my-btn{
+    display: block;
+
+} */
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color:aqua;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+  
+
+}
+
+nav .menu{
+    display: block;
+    list-style: none;
+    justify-content: space-around;
+   
+margin-right: 10%;
+    position: relative;
+    z-index: 1;
+   background-color:darkcyan;
+width: 100%;
+height: 20vh;
+top: 14px;
+left: -100%;
+transition: 1s ease-in;
+
+}
+
+#click:checked ~ .my-btn i::before{
+    content: "\f00d";
+    color: white;
+  
+}
+#click:checked ~ .menu{
+    left: 0%;
+}
+nav .my-btn{
+    display: block;
+}
+}
+
+
+
+
+/* media query end */

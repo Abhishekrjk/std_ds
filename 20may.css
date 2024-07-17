@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.admine-menu{
+    height: 10vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+    .btn{
+    width: 20%;
+    height: 90vh;
+    background-color: blueviolet;
+    
+    position: relative;
+    justify-content: space-around ;
+    list-style: none;
+   
+
+
+   }
+   .btn li a{
+    margin: 30px;
+    position: relative;
+    top: 20px;
+   
+    gap: 10px;
+    font-weight: bolder;
+    color: black;
+    font-style: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+   }
+   .admine-menu .abhi1{
+    height: 60px;
+    width: 60px;
+    background-color: darkblue;
+    border: solid 2px black;
+    border-radius: 50px;
+   
+   }
+   section .abhi2{
+    width: 80%;
+    height: 100%;
+    background-color:transparent;
+      }
+       section{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+   }
+   section .abhi2 .outer{
+    width: 80%;
+    height: 80%;
+    background-color:cyan;
+    position: relative;
+    top: 10vh;
+    left: 70px;
+    border-left: 4px solid black;
+    border-bottom: 3px solid black;
+    box-shadow:  inherit 3px 2px 1px   ;  
+    display: flex;
+    justify-content: 
+   }
+   section .abhi2 .outer .outer1{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 3px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer1 .outer1-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer1 .outer1-ak2{
+    width: 30%;
+    height: 50%;
+    background-color:red;
+    position: relative;
+    top: 27px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer2{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 17px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer2 .outer2-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer2 .outer2-ak2{
+    width: 30%;
+    height: 50%;
+    background-color:red;
+    position: relative;
+    top: 27px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer3{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 26px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer3 .outer3-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer3 .outer3-ak2{
+    width: 30%;
+    height: 50%;
+    background-color:green;
+    position: relative;
+    top: 27px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer4{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 35px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer4 .outer4-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer4 .outer4-ak2{
+    width: 30%;
+    height: 50%;
+    background-color:red;
+    position: relative;
+    top: 27px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer5{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 37vh;
+    left: 44px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer5 .outer5-ak1{
+    width: 30%;
+    height: 40%;
+    background-color:green;
+    position: relative;
+    top: 11vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer5 .outer5-ak2{
+    width: 30%;
+    height: 80%;
+    background-color:red;
+    position: relative;
+    bottom:69px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer6{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 60px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer6 .outer6-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer6 .outer6-ak2{
+    width: 30%;
+    height: 20%;
+    background-color:red;
+    position: relative;
+    top: 126px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer7{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 15vh;
+    left: 80px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer7 .outer7-ak1{
+    width: 30%;
+    height: 53%;
+    background-color:green;
+    position: relative;
+    top:17px ;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer7 .outer7-ak2{
+    width: 30%;
+    height: 70%;
+    background-color:green;
+    position: relative;
+    bottom: 40px;
+    left: 3px;        
+   }
+   section .abhi3{
+    height: 90vh;
+    width: 80%;
+    background-color:transparent;
+   }
+
+  section .abhi3 .circle1{
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    position: relative;
+    left: 30vh;
+    top: 30vh;
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle2{
+    height: 100px;
+    width:100px;
+    background-color: cadetblue;
+    position: relative;
+    left: 5vh;
+    top: 30vh;
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle3{
+    height: 100px;
+    width:100px;
+    background-color: cadetblue;
+    position: relative;
+    left: 50vh;
+    top: 25vh;
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle4{
+    height: 100px;
+    width:100px;
+    background-color: cadetblue;
+    position: relative;
+    left: 5vh;
+    bottom: 50vh;
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle5{
+    height: 100px;
+    width:100px;
+    background-color: cadetblue;
+    position: relative;
+    left: 50vh;
+    bottom: 70vh;
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle6{
+    height: 100px;
+    width:100px;
+    background-color: cadetblue;
+    position: relative;
+    left: 70vh;
+    bottom:60vh ;
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle1 span{
+    font-weight: bolder;
+    position: relative;
+    transform: rotate(90deg);
+  }
+  

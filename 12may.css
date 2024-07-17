@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+nav .logo{
+    width: 20%;
+    height: 10vh;
+}
+nav .logo img{
+    height: 10vh;
+    width: 100%;
+}
+nav .my-btn{
+    display: none;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 75px;
+
+    margin-right: 10%;
+
+   
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+   
+ 
+    
+    padding: 10%;
+    position: relative;
+    
+
+    
+   
+
+}
+ /*.mycls{
+    background-color: red;
+    font-size: 200px;
+    border-radius: 100%;
+    color: yellow;
+    border: 2px solid black;
+    margin: 10%;
+    box-shadow: rgba(red, green, blue, alpha);
+    
+}
+*/
+/* home css start */
+.home{
+    width: 100%;
+    height: 90vh;
+    background-color: aqua;
+
+
+}
+.home .home-left{
+    width: 50%;
+    height: 100%;
+    background-image: url(image/nature1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#click {
+    display: none;
+    
+}
+/* home css end */
+/* media query start */
+@media(max-width:420px){
+nav .my-btn{
+    display: block;
+
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: aqua;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+  
+
+}
+
+nav .menu{
+    display: block;
+    list-style: none;
+    justify-content: space-around;
+   
+margin-right: 10%;
+    position: relative;
+    z-index: 1;
+   background-color: brown;
+width: 100%;
+height: 20vh;
+top: 14px;
+left: -100%;
+transition: 1s ease-in;
+
+}
+
+#click:checked ~ .my-btn i::before{
+    content: \f00d;
+}
+#click:checked ~ .menu{
+    left: 0%;
+}
+nav .my-btn{
+    display: block;
+}
+}
+
+
+
+
+/* media query end */

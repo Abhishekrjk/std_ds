@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.star_outer{
+    height: 200px;
+    width: 300px;
+    background-color:blueviolet;
+    margin: 20px;
+
+}
+.star_outer .star{
+    font-size:large;
+    color: yellow;
+    font-weight: bolder;
+    
+    
+}
+.star_outer .moon{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 40%;
+    border-radius: 50%;
+    }
+    .star_outer .moon:hover{
+        background:url(image1.avif);
+        height: 60px;
+        width: 60px;
+        position: relative;
+        top: 20px;
+        left: 40%;
+        
+        }
+        
+@keyframes abhishek{
+    0%{
+        background:url(images/0060007795aa537418b06020c03fada8.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    }
+    10%{
+        background:url(Index.HTML);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    }
+    20%{
+        background:url(images/image\ 2_files/);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    }30%{
+        background:url(images/image\ 2.htm);
+        background-repeat: no-repeat;
+    background-size: cover;
+    } 
+    45%{
+        background:url(images/image2.webp);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    } 
+    50%{
+        background:url(images/download\ \(1\).jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    }
+     60%{
+        background:url(images/download\ 4.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+     } 
+     70%{
+        background:url(image1.avif);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+     }
+      80%{
+
+        background:url(images/abd.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+      } 
+      90%{
+        background:url(images/download.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+      }
+       100%
+}

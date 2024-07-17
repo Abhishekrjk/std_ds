@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <style>
+        .outer{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            perspective: 1000;
+        } 
+        .inner{
+            height: 100%;
+            width: 100%;
+            position: relative;
+
+        }
+        .outer:hover{
+            transform: rotateY(180deg);
+            transition: 5s ease-in-out;
+        }
+        .outer .inner1,.inner2{
+            height: 100%;
+            width: 100%;
+            background-color: cyan;
+            position: absolute;
+            backface-visibility: hidden;
+        }
+        .outer .inner1{
+            transform: rotate(180deg);
+            position: absolute;
+        }
+
+    </style>
+    <h1>welcome to CSS</h1>
+    <div class="outer">
+        <div class="inner">
+            <div class="inner1"></div>
+            <div class="inner2"></div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+    

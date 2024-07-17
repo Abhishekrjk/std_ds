@@ -1,0 +1,548 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 18vh;
+    background: linear-gradient(#FCFAFB, #C8D3D6);
+
+}
+header .first{
+    width: 100%;
+    height:10vh;
+    background: linear-gradient(#FCFAFB, #C8D3D6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+   
+    z-index: 1;
+}
+
+header .logo{
+    margin-left: 5%;
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+header .search{
+    border-radius: 10px;
+    padding: 3px;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+header .menu{
+    list-style: none;
+    display: flex;
+    margin-right: 5%;
+    gap: 5px;
+    
+}
+
+header .menu li a{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    letter-spacing: 0.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+header .button{
+    display: none;
+}
+
+#click{
+    display: none;
+}
+header  .second{
+    
+        height: 8vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        top: 10vh;
+      
+    }
+    
+    
+
+ header .second .menu{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+section .slider{
+    height:50vh;
+    width: 400%;
+    display:flex;
+    animation-name:slider;
+    animation-duration: 10s;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    position:relative;
+   
+}
+
+section .slider img{
+    width: 25%;
+    height: 100%;
+}
+
+section .products{
+    width: 100%;
+    height: auto;
+    background-color: #C8D3D6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: space-around;
+    position:absolute;
+    
+}
+
+section .products .p1{
+    width: 20%;
+    height: 35vh;
+    background-color: #FCFAFB;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px black;
+}
+
+section .products .p1 img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+section .products .p1 p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+section .products #p1 img{
+    padding: 5px;
+}
+
+section .products #p2 img{
+    padding: 5px;
+}
+
+section .products #p3 img{
+    padding: 5px;
+}
+
+section .products #p4 img{
+    padding: 5px;
+}
+
+section .products #p5 img{
+    padding: 5px;
+}
+
+section .products #p6 img{
+    padding: 5px;
+}
+
+section .products #p7 img{
+    padding: 5px;
+}
+
+section .products #p8 img{
+    padding: 5px;
+}
+
+section .products #p9 img{
+    padding: 5px;
+}
+
+section .products #p10 img{
+    padding: 5px;
+}
+section .products #p11 img{
+    padding: 5px;
+}
+section .products #p12 img{
+    padding: 5px;
+}
+section .products #p13 img{
+    padding: 5px;
+}
+section .products #p14 img{
+    padding: 5px;
+}
+section .products #p15 img{
+    padding: 5px;
+}
+section .products #p16 img{
+    padding: 5px;
+}
+
+
+.sing-up{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(188, 222, 222);
+    margin-top: 133%;
+
+}
+.sing-up .sing-in{
+    background-color:gray;
+    width: 40%;
+    height: 40%;
+    align-items: center;
+    position: relative;
+    top: 30%;
+    margin-left: 30%;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 20px 20px 20px  black;
+    
+
+}
+.sing-up  :hover{
+    background-color: blue;
+    transition: 2 second is ease-in;
+
+}
+.sing-up .sing-in :hover{
+    background-color: aqua;
+    transition: 2 second is ease-in ;
+    position: relative;
+
+}
+.sing-up .sing-in .sign_name{
+    margin-left: 30%;
+    border-radius: 20px;
+    position: relative;
+    letter-spacing: 0.5px;
+    align-items: center;
+    font-weight: bold;
+    
+    top: 0%;
+}
+.sing-up .sing-in .sign_password{
+    margin-left: 30%;
+    border-radius: 20px;
+    position: relative;
+    top: 1%;
+    align-items: center;
+    font-weight: bolder;
+}
+.sing-up .sing-in .sign_submit{
+    margin-left: 50%;
+    border-radius: 20px;
+    position: relative;
+    top: 10%;
+
+ 
+}
+.sing-up .sing-in h1{
+    color: blanchedalmond;
+    
+}
+.sing-up .sing-in p{
+    color:gainsboro;
+    margin-top: 10px;
+    
+}
+.sing-up .sing-in .sign_id{
+    margin-left: 30%;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    letter-spacing: 0.5px;
+    align-items: center;
+    font-weight: bold;
+    
+
+    
+    top: 0%;
+}
+
+
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color:darkseagreen;
+   display: flex;
+   gap: 30px;
+   align-items: center;
+   position: absolute;
+   margin-top:-5%;
+
+}
+.footer .footer1{
+    height: 80%;
+    width: 30%;
+    background-color:transparent;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+    .footer .footer3{
+     height: 80%;
+        width: 30%;
+        background-color:transparent;
+        margin-right: 20px;
+       
+    }
+.footer .footer1 ul{
+    display: block;
+}
+.footer .footer1 ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.footer .footer1 h3{
+    margin-left:30px;
+    color: crimson;
+    margin: 10px;
+}
+.footer .footer1 p{
+  margin-top: 10px;
+    margin-left: 20px;
+    color: darkmagenta;
+    font-weight: 600;
+}
+.footer .footer1 ul li a:hover{
+    list-style: none;
+   
+    color: purple;
+    font-weight: bolder;
+}
+.footer .footer1 ul{
+    display: flex; 
+    margin-left:px;
+}
+.footer .footer1 ul li{
+    display: flex; 
+    margin-left:15px;
+}
+.footer .footer1 ul li a{
+    text-decoration: none;
+    font-weight: 500;
+ }
+ .footer .footer2{
+    height: 80%;
+     width: 30%;
+     background-color:transparent;
+     margin-left: 25px;
+     
+ }
+.footer .footer2 h3{
+    color:crimson;
+    margin: 10px;
+
+}
+.footer .footer2 h5{
+    margin: 10px;
+    margin-left: 25px;
+    color: darkslateblue;
+}
+.footer .footer2 ul li a:hover{
+   
+   
+    color:purple;
+    font-size: larger;
+}
+
+.footer .footer2 ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer .footer2 ul{
+    display: flex; 
+    margin-left:px;
+}
+.footer .footer2 ul li{
+    display: flex; 
+    margin-left:15px;
+}
+.footer .footer2 ul li a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.footer .footer3 h3{
+    color: crimson;
+    margin: 10px;
+
+}
+.footer .footer3 h4{
+    margin-left: 25px;
+    color: darkslateblue;
+}
+.footer .footer3 p{
+    margin: 10px;
+    font-weight: bold;
+    color: darkslateblue;
+}
+footer .footer3 a{
+    height: 20%;
+    width: 80%;
+}
+footer .footer3 a img{
+    height: 30%;
+    width: 50%;
+    margin-left:10px;
+    
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+
+    z-index: 1;
+}
+.about img{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    left: 0%;
+    top: 0px;
+    
+
+
+   
+}
+.about .about2{
+    height: 5vh; 
+    width: 100%;
+    background-color: blueviolet;
+
+   
+}
+#career{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(88, 138, 118);
+    position: relative;
+}
+#career h1{
+color: rgb(137, 44, 103);
+}
+@keyframes slider {
+    0%{
+        left: 0%;
+    }
+
+    16%{
+        left: -100%;
+    }
+
+    32%{
+        left:-200%;
+    }
+
+    48%{
+        left: -300%;
+    }
+
+    64%{
+        left: -200%;
+    }
+
+    80%{
+        left:-100%;
+    }
+
+    96%{
+        left:0%
+    }
+}
+
+@media (max-width: 420px) {
+
+        header{
+            display: block;
+            width: 100%;
+            height: 10vh;
+            background: linear-gradient(#FCFAFB, #C8D3D6);
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            flex-wrap:wrap ;
+            position: relative;
+        }
+
+        header .button{
+            display: block;
+            margin-right: 5%;
+            font-size: larger;
+            color:darkblue;
+        }
+
+    
+        header .menu{
+            display: block;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+            top: 10%;
+            background-color:darkmagenta;
+            width: 100%;
+            left: -100%;
+            transition: 2s ease-in;
+        }
+
+        #click:checked ~ .button i::before{
+            content: "\f00d";
+        }
+
+        #click:checked ~ .menu{
+            left: 0%;
+        }
+
+        
+
+        .footer{
+            display: block;
+            margin-top:-8%;
+            height: auto;
+        }
+        .footer .footer1{
+        width: 80%;
+        }
+        .footer .footer1 ul{
+            display: flex;
+            justify-content: space-around;
+    
+    }
+    .footer .footer2{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+       .footer .footer2 ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    .footer .footer3{
+        display: none;
+    }
+    }
+    
+    

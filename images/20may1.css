@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+ header .admine-menu{
+    height: 10vh;
+    width: 100%;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   header .admine-menu img{
+    height: 80%;
+    width: 10%;
+      margin-left: 20px;
+      border-radius: 50%;
+   }
+    .btn{
+    width: 30%;
+    height: 90vh;
+    background-color: blueviolet;
+    
+    position: relative;
+    top: ;
+    justify-content: space-around ;
+    list-style: none;
+   
+
+
+   }
+   .btn li {
+    margin: 30px;
+    position: relative;
+    top: 30px;
+    font-weight: bolder;
+    color:solid ;
+    font-style: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+   }
+   .btn li a{
+   border-bottom: 2px solid black;
+   }
+   .admine-menu .abhi1{
+    height:90%;
+    width: 10%;
+    background-color: transparent;
+   
+    margin-right: 40px;
+   
+   
+   }
+   .admine-menu .abhi1 img{
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+
+   
+   }
+   section .abhi2{
+    width: 80%;
+    height: 100%;
+    background-color:cornflowerblue ;
+   }
+   section .abhi2 .header{
+    width: 100%;
+    height: 10%;
+    background-color:cornflowerblue; 
+    display: flex;
+    align-items: center; 
+    border-bottom: 4px solid black;
+    justify-content: space-between;
+
+   }
+   section .abhi2 .head{
+    height: 10%;
+    width: 20%;
+    background-color:transparent;
+    margin-bottom: 4%;
+   
+   }
+   section .abhi2 .head h3:hover{
+    height: 10%;
+    width: 30%;
+    background-color:transparent;
+    margin-bottom: 4%;
+   
+   }
+   
+section .abhi2 .header .search{
+    width:30% ;
+    height:80%;
+    display: flex;
+    box-shadow: 3px 4px 4px;
+    background-color:cornflowerblue;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 2px;
+    
+}
+
+section .abhi2 .header .search:hover{
+    width:30% ;
+    height:80%;
+    display: flex;
+    box-shadow: 3px 4px 4px;
+    background-color:cornsilk;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 2px;
+    
+}
+ .search form input{
+    border: none;
+   width:90%;
+  background-color:transparent;
+   border-radius: 20px;
+   font-weight: 700;
+   font-style:italic;
+}
+
+section .abhi2 .header .search form {
+    width: 100%;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: transparent;
+
+}
+.header .bell{
+    height: 80%;
+    width: 8%;
+    border: 4px solid black;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.header .bell i{
+    position: relative;
+    top: 20%;
+    left: 30%;
+
+}
+.header .bell i:hover{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    color: crimson;
+
+}
+   section{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+   }
+   
+section .abhi2 .content{
+    height: 25%;
+    width: 80%;
+    margin: 50px;
+    background-color: transparent;
+    border: 4px solid black;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0.8%;
+    gap: 30px;
+    overflow: hidden;
+}
+section .abhi2 .content .inner1{
+ height: 90px;
+ width: 150px;
+ background-color:black;
+position: relative;
+top:10px;
+left: 20px;
+border: 2px solid black;
+box-shadow: 2px 3px 4px  gray;
+border-radius: 20px;
+align-items: center;
+}
+section .abhi2 .content .inner1 h5{
+    position: relative;
+    top: 20%;
+    left: 16%;
+  
+    color: aliceblue;
+   
+}
+section .abhi2 .content .inner1 h5 i{
+    margin-right: 10px;
+}
+
+section .abhi2 .content .inner1 p{
+    position: relative;
+    top: 25%;
+    left: 30%;
+    color: cornflowerblue;
+   
+}
+section .abhi2 .content2 .inner1{
+    height: 90px;
+    width: 150px;
+    background-color: gray;
+   position: relative;
+   top: px;
+   left: 20px;
+   border: 2px solid black;
+   box-shadow: 2px 3px 4px  gray;
+   border-radius: 20px;
+  
+}
+section .abhi2 .content2 .inner1 h5{
+    position: relative;
+    top: 20%;
+    left: 16%;
+    color: aliceblue;
+   
+}
+section .abhi2 .content2 .inner1 p{
+    position: relative;
+    top: 30%;
+    left: 30%;
+    color: cornflowerblue;
+   
+}
+section .abhi2 .content2 .inner1 p i{
+    margin-right: 10px;
+    color: green;
+    font: weight 6px;
+}
+
+
+
+section .abhi2 .content2{
+    height: 35%;
+    width: 80%;
+    margin: 50px;
+    background-color: ;
+    border: 4px solid black;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0.8%;
+    gap: 30px;
+    overflow: hidden;
+}
+section .abhi2 .content2 h1{
+    height: 10%;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: azure;
+
+}

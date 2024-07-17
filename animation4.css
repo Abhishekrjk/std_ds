@@ -1,0 +1,70 @@
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 50px;
+     animation-name: anim1 ;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     animation-delay: 1s;
+}
+.circle .line{
+    width: 198px;
+    border: 2px solid red;
+    list-style: none; 
+    position: relative; 
+}
+.circle :nth-child(1){
+    top: 100px;
+
+}
+.circle :nth-child(2){
+    top: 95px;
+    transform: rotate(20deg);
+}
+.circle :nth-child(3){
+    top: 90px;
+    transform: rotate(40deg);
+}
+.circle :nth-child(4){
+    top: 86px;
+    transform: rotate(60deg);
+}
+.circle :nth-child(5){
+    top: 82px;
+    transform: rotate(80deg);
+}
+.circle :nth-child(6){
+    top: 78px;
+    transform: rotate(100deg);
+}
+.circle :nth-child(7){
+    top: 75px;
+    transform: rotate(120deg);
+}
+
+.circle :nth-child(8){
+    top: 70px;
+    transform: rotate(145deg);
+}
+.circle :nth-child(9){
+    top: 65px;
+    transform: rotate(162deg);
+}
+@keyframes anim1 {
+    from{
+        transform: rotate(0deg);
+        background-color: yellow;
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: blueviolet;
+        border: 4px dotted crimson;
+        translate: 150%;
+    }
+    
+}
+
+
+

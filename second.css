@@ -1,0 +1,8 @@
+body{
+    background-image:url(image1.avif);
+}
+h1{
+    color: green;
+    size: 23px;
+    margin-left: 33%;
+}

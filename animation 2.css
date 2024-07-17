@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: darkcyan;
+    background:url(image1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: abhishek 3s 2s infinite;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+video{
+    height: 200px;
+    width: 200px;
+}
+@keyframes abhishek{
+    0%{
+        background:url(images/0060007795aa537418b06020c03fada8.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    }
+    10%{
+        background:url(Index.HTML);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    }
+    20%{
+        background:url(images/image\ 2_files/);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    }30%{
+        background:url(images/image\ 2.htm);
+        background-repeat: no-repeat;
+    background-size: cover;
+    } 
+    45%{
+        background:url(images/image2.webp);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    } 
+    50%{
+        background:url(images/download\ \(1\).jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+    }
+     60%{
+        background:url(images/download\ 4.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+     } 
+     70%{
+        background:url(image1.avif);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+     }
+      80%{
+
+        background:url(images/abd.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+      } 
+      90%{
+        background:url(images/download.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px 1px cyan ;
+      }
+       100%
+}

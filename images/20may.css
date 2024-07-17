@@ -1,0 +1,564 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+header .admine-menu{
+  height: 10vh;
+  width: 100%;
+  background-color:cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ header .admine-menu  img{
+  height: 80%;
+  width: 10%;
+    margin-left: 20px;
+    border-radius: 50%;
+ }
+  .btn{
+  width: 25%;
+  height: 90vh;
+  background-color: blueviolet;
+  
+  position: relative;
+  top: ;
+  justify-content: space-around ;
+  list-style: none;
+ 
+
+
+ }
+ .btn li {
+  margin: 30px;
+  position: relative;
+  top: 30px;
+  font-weight: bolder;
+  color: solid azure;
+  font-style: none;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+ }
+ .btn li a{
+ border-bottom: 2px solid black;
+ }
+   .admine-menu .abhi1{
+    height: 90%;
+    width: 10%;
+    background-color: ;
+   margin-right: 30px;
+    border-radius: ;
+   
+   }
+   .admine-menu .abhi1 img{
+    height: 100%;
+    width: 100%;
+   }
+   
+    
+       section{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+   }
+   .abhi2{
+    background-color: aquamarine;
+    width: 80%;
+    height: 100%;
+    display: flex;
+   }
+   .abhi2 .pr {
+position: relative;
+height: 100%;
+width:10% ;
+top: 55px;
+background-color:aquamarine;
+
+   }
+   .abhi2 .pr h4{
+    margin-left: 10px;
+    margin-right: ;
+   }
+   .abhi2 .pr :nth-child(11){
+position: relative;
+top:42% ;
+   }
+   .abhi2 .pr :nth-child(10){
+    position: relative;
+    top:37% ;
+       }
+       .abhi2 .pr :nth-child(9){
+        position: relative;
+        top:32% ;
+           }
+           .abhi2 .pr :nth-child(8){
+            position: relative;
+            top:28% ;
+               }
+               .abhi2 .pr :nth-child(7){
+                position: relative;
+                top: 23% ;
+                   }
+
+                   .abhi2 .pr :nth-child(6){
+                    position: relative;
+                    top:18% ;
+                       }.abhi2 .pr :nth-child(5){
+                        position: relative;
+                        top:13% ;
+                           }.abhi2 .pr :nth-child(4){
+                            position: relative;
+                            top:8% ;
+                               }.abhi2 .pr :nth-child(3){
+                                position: relative;
+                                top:4% ;
+                                   }.abhi2 .pr :nth-child(2){
+                                    position: relative;
+                                    top:2% ;
+                                       }
+                                       .abhi2 .pr :nth-child(1){
+                                        position: relative;
+                                        top:o% ;
+                                           }
+                                           
+                                                   
+   section .abhi2 .outer{
+    width: 80%;
+    height: 80%;
+    background-color:cyan;
+    position: relative;
+    top: 10vh;
+    left: px;
+    border-left: 4px solid black;
+    border-bottom: 3px solid black;
+    box-shadow:  inherit 3px 2px 1px   ;  
+    display: flex;
+    justify-content:space-around;
+   }
+   section .abhi2 .outer .outer1{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 3px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer1 .outer1-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer1 .outer1-ak2{
+    width: 30%;
+    height: 50%;
+    background-color:red;
+    position: relative;
+    top: 27px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer2{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 17px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer2 .outer2-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer1 .outer1-ak1 p{
+    position: relative;
+    top: 18vh;
+    right:  18px;
+   }
+   section .abhi2 .outer .outer1 .outer1-ak2 p{
+    position: relative;
+    top: 29.4vh;
+    right:  5px;
+   }
+   section .abhi2 .outer .outer2 .outer2-ak1 p{
+    position: relative;
+    top: 18vh;
+    right:  8px;
+   }
+   section .abhi2 .outer .outer2 .outer2-ak2 p{
+    position: relative;
+    top: 29.4vh;
+    right:  8px;
+   }
+   section .abhi2 .outer .outer3 .outer3-ak1 p{
+    position: relative;
+    top: 18vh;
+    right:  8px;
+   }
+   section .abhi2 .outer .outer3 .outer3-ak2 p{
+    position: relative;
+    top: 12.3vh;
+    right:  8px;
+   }
+   section .abhi2 .outer .outer4 .outer4-ak1 p{
+    position: relative;
+    top: 30vh;
+    right:  8px;
+   }
+   section .abhi2 .outer .outer4 .outer4-ak2 p{
+    position: relative;
+    top: 29.5vh;
+    right:  8px;
+   }
+   section .abhi2 .outer .outer5 .outer5-ak1 p{
+    position: relative;
+    top: 24vh;
+    right:  8px;
+   }
+   section .abhi2 .outer .outer5 .outer5-ak2 p{
+    position: relative;
+    top: 46.7vh;
+    right:  8px;
+   }
+   section .abhi2 .outer .outer6 .outer6-ak1 p{
+    position: relative;
+    top: 18vh;
+    left: ;
+   }
+   section .abhi2 .outer .outer2 .outer2-ak2{
+    width: 30%;
+    height: 50%;
+    background-color:red;
+    position: relative;
+    top: 27px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer3{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 26px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer3 .outer3-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer3 .outer3-ak2{
+    width: 30%;
+    height: 20%;
+    background-color:red;
+    position: relative;
+    top: 38%;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer4{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 35px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer4 .outer4-ak1{
+    width: 30%;
+    height: 51%;
+    background-color:green;
+    position: relative;
+    top: 4vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer4 .outer4-ak2{
+    width: 30%;
+    height: 50%;
+    background-color:red;
+    position: relative;
+    top: 27px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer5{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 37vh;
+    left: 44px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer5 .outer5-ak1{
+    width: 30%;
+    height: 40%;
+    background-color:green;
+    position: relative;
+    top: 11vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer5 .outer5-ak2{
+    width: 30%;
+    height: 80%;
+    background-color:red;
+    position: relative;
+    bottom:69px;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer6{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 38vh;
+    left: 30px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer6 .outer6-ak1{
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    position: relative;
+    top: 16vh;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer6 .outer6-ak2{
+    width: 30%;
+    height: 20%;
+    background-color:red;
+    position: relative;
+    top: 126px;
+    left: 3px;  
+    display: none;      
+   }
+   section .abhi2 .outer .outer7{
+    width: 10%;
+    height: 80%;
+    background-color:transparent;
+    position: relative;
+    top: 15vh;
+    left: 80px;
+    display: flex;
+   justify-content: space-between;
+        
+   }
+   section .abhi2 .outer .outer7 .outer7-ak1{
+    width: 30%;
+    height: 53%;
+    background-color:green;
+    position: relative;
+    top:149px ;
+    left: 3px;        
+   }
+   section .abhi2 .outer .outer7 .outer7-ak2{
+    width: 30%;
+    height: 70%;
+    background-color:green;
+    position: relative;
+    top: 28%;
+    left: 3px;        
+   }
+   /* Dasboard 1Work End */
+   /* dasboard 2 star */
+   section .abhi3{
+    height: 90vh;
+    width: 75%;
+    background-color:white;
+   }
+   section .abhi3 .circl{
+    height: 14%;
+    width: 100%;
+    background-color:;
+    position: relative;
+   top: 2vh;
+   
+    align-items: center;
+
+   }
+   section .abhi3 .circ{
+    height: 30%;
+    width: 100%;
+    background-color:transparent;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 40px;
+    left:;
+ 
+   }
+   section .abhi3 .circle{
+    height: 14%;
+    width: 60%;
+    background-color:transparent;
+    position: relative;
+    display: flex;
+    margin-left:15% ;
+    justify-content: space-between;
+  align-items: center;
+  left: 30px;
+   }
+
+  section .abhi3 .circle1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: relative;
+   
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }section .abhi3 .lines{
+background-color:transparent;
+height: 15vh;
+width: 100%;
+  }
+  .abhi3 p{
+    position: relative;
+    top: 30%;
+    padding: 2px;
+    color: azure;
+    font-weight: 900;
+    font-style: italic;
+  }
+  section .abhi3 .lines .lines1{
+    height: 5px;
+    width:70px;
+    list-style: none;
+    background-color:black;
+    position: relative;
+    top: 70px;
+    left: px;
+    right: 10px;
+    bottom: 1px;
+    transform: rotate(80deg);
+}
+
+
+  
+  section .abhi3 .line{
+    background-color: transparent;
+    height: 14vh;
+    width: 100%;
+      }
+      section .abhi3 .line #line3{
+        height: 5px;
+        width: 206px;
+        list-style: none;
+        background-color: black;
+        position: relative;
+        top: 90px;
+        left: 60px;
+        right: px;
+        bottom: 0px;
+        transform: rotate(50deg);
+    
+    
+    }
+    
+
+    
+    section .abhi3 .line #line4{
+      height: 5px;
+      width: 200px;
+      list-style: none;
+      background-color: black;
+      position: relative;
+      top: 80px;
+      left: px;
+      right: 70px;
+      bottom: 1px;
+      transform: rotate(130deg);
+  
+  }
+  
+  section .abhi3 .circle2{
+    height: 100px;
+    width:100px;
+    background-color:darkgreen;
+    position: relative;
+   
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle3{
+    height: 100px;
+    width:100px;
+    background-color:darkorchid;
+    position: relative;
+   
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle4{
+    height: 120px;
+    width:120px;
+    background-color:black;
+    position: relative;
+   
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle5{
+    height: 100px;
+    width:100px;
+    background-color:darkblue;
+    position: relative;
+   left: -20px;
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle6{
+    height: 100px;
+    width:100px;
+    background-color:cadetblue;
+    position: relative;
+   
+    border: 3px blueviolet;
+    border-radius: 50%;
+  }
+  section .abhi3 .circle .line1{
+    width: 35%;
+    height: 2px;
+    border: 2px solid black;
+    list-style: none; 
+    position: relative; 
+    top: 0%;
+   
+  }
+  section .abhi3 .circle .line2{
+    width: 35%;
+    height: 2px;
+    border: 2px solid black;
+    list-style: none; 
+    position: relative; 
+    top: %;
+   
+  }
+
+  
